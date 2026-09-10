@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pong</title>
+
+    <style>
+        body {
+            background-color: #eeeeee;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        #placar {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 15px;
+        }
+
+        canvas {
+            border: 2px solid black;
+            background-color: #1a1a1a;
+        }
+
+        #controles {
+            margin-top: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Jogo Pong</h1>
+
+    <p id="placar">
+        Verde: 0 | Azul: 0
+    </p>
+
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+    <div id="controles">
+        <p><strong>Jogador verde:</strong> W para subir e S para descer</p>
+        <p><strong>Jogador azul:</strong> ↑ para subir e ↓ para descer</p>
+    </div>
+
+    <script src="m3.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
